@@ -17,6 +17,3 @@ def retweeted():
             top10.append(read_tweet)
             top10.sort(reverse=True, key=retweetCount)
     return top10
-
-
-retweeted()
