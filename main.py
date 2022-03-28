@@ -1,7 +1,9 @@
+from retweeted import retweeted
+
+
 def main():
-    #funcion
-    return 0
+    numero = input("Ingrese un número del 1 al 4")
+    if numero == 1 or numero == "1":
+        lista = retweeted()
 
-
-if __name__ == "__main__":
-    main()
+    return lista
