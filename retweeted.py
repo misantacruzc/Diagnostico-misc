@@ -16,9 +16,6 @@ def retweeted():
             top10.pop(9)
             top10.append(read_tweet)
             top10.sort(reverse=True, key=retweetCount)
-
-    for i in top10:
-        print(i['retweetCount'])
     return top10
 
 
