@@ -3,10 +3,6 @@ import re
 from datetime import datetime
 
 
-def retweetCount(dict):
-    return dict['retweetCount']
-
-
 def date():
     top10 = {}
     lista = []

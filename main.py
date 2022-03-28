@@ -1,6 +1,7 @@
 from retweeted import retweeted
 from users import users
 from days import date
+from hashtags import hashtag
 
 
 def main():
@@ -14,5 +15,9 @@ def main():
         lista = users()
     elif numero == 3 or numero == "3":
         lista = date()
+    elif numero == 4 or numero == "4":
+        lista = hashtag()
+    else:
+        lista = "Número inválido"
 
     return lista
